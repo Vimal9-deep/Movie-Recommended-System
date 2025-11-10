@@ -27,12 +27,13 @@ def recommend(movie):
 movies_dict=pickle.load(open('movie_dict.pkl','rb'))
 movies=pd.DataFrame(movies_dict)
 
-#loading similarity matrix from google drive
+#loading similarity matrix from google drive 
+#similarity.pkl file is too much large that could not be uploaded at github so , i had uploaded it to google drive and doing dynamic fetching here 
 import gdown
 import os  
 import joblib
 # File info
-drive_file_id = "1fLopcrEot4pgJHrPBJBYNFNUD3JI0fKR"  # replace with your actual file ID
+drive_file_id = "1fLopcrEot4pgJHrPBJBYNFNUD3JI0fKR"  #  file ID
 file_name = "similarity.pkl"
 
 # Download once and cache locally
