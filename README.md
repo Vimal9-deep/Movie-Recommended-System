@@ -16,3 +16,6 @@ Backend Logic: Python
 Data Handling: Pandas, NumPy
 Similarity Calculation: Scikit-learn (Cosine Similarity)
 External API: TMDb (for fetching movie posters)
+<h3>🌐 Deployment</h3>
+deployments for this project is done at Streamlit Community Cloud 
+access link :- https://movie-recommended-system-8vzhwuahkshdjygfrgusg8.streamlit.app/
