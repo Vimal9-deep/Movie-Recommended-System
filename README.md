@@ -11,13 +11,21 @@ Preprocessed data and similarity scores for fast recommendation results.
 Can be deployed easily on Streamlit Community Cloud, AWS, or any cloud platform.
 
 <h3>Tech Stack</h3>
+
 Language: Python
+
 Frontend/UI: Streamlit
+
 Backend Logic: Python
+
 Data Handling: Pandas, NumPy
+
 Similarity Calculation: Scikit-learn (Cosine Similarity)
+
 External API: TMDb (for fetching movie posters)
+
 Project Type : web Application
+
 <h3>🌐 Deployment</h3>
 deployments for this project is done at Streamlit Community Cloud 
 access link :- https://movie-recommended-system-8vzhwuahkshdjygfrgusg8.streamlit.app/
