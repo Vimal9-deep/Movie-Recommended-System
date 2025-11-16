@@ -4,7 +4,7 @@ import pickle # For loading pre-trained models or data
 
 #function for fetching movie poster from API
 import requests
-
+ 
 def fetch_poster(movie_id):
   response=requests.get('https://api.themoviedb.org/3/movie/{}?api_key=4bea04673df8fc321c83b8c9dfa1911f'.format(movie_id))
   data=response.json() 
